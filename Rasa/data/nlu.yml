@@ -1,0 +1,62 @@
+version: "3.1"
+
+nlu:
+
+- intent: Pedir_Ajuda
+  examples: |
+    - me ajuda
+    - Estou me sentindo meio pra baixo
+    - Eu não estou bem
+    - Estou triste
+    - Me sinto sobrecarregado
+    - Estou sobre pressão
+    - Tenho ataques de panico
+    - Perdi o interesse em tudo
+    - esotu meio pra baixo
+    - qual é o meu problema
+    - Me sinto triste
+- intent: Adeus
+  examples: |
+    - Thau
+    - Adeus
+    - Ja me sinto melhor
+    - ate mais
+- intent: Saudacao
+  examples: |
+    - olá
+    - Ola
+    - Oi
+    - Iae
+    - Olá
+    - bom dia
+    - boa tarde
+    - boa noite
+- intent: Comfirmacao
+  examples: |
+    - sim
+    - s
+    - ok
+    - aceito
+    - pode ser
+    - ta
+    - ta bom
+- intent: Negacao
+  examples: |
+    - n
+    - Não
+    - Não quero
+- intent: Agradecimento
+  examples: |
+    - Muito Obrigado
+    - Agradeço
+    - Ajudou muito
+- intent: Problema
+  examples: |
+    - Aconteceu (Problema)[Problema]
+    - eu tava (Problema)[Problema]
+    - meio que (Problema)[Problema]
+    - tinha (Problema)[Problema]
+    - ta dificil de (Problema)[Problema]
+    - eu comecei a (Problema)[Problema]
+    - meu (Problema)[Problema]
+    - minha (Problema)[Problema]

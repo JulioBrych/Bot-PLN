@@ -1,0 +1,14 @@
+version: "3.1"
+
+rules:
+
+- rule: Flow
+  steps:
+  - intent: Adeus
+  - action: utter_Adeus
+
+- rule: Saudar
+  steps:
+  - intent: Saudacao
+  - action: utter_Saudacao
+  - action: utter_Bem

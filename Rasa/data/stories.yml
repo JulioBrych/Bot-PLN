@@ -1,0 +1,61 @@
+version: "3.1"
+
+stories:
+
+- story: feliz
+  steps:
+  - intent: Pedir_Ajuda
+  - action: utter_Calma
+  - action: utter_Pergunta_Motivacional
+  - intent: Comfirmacao
+  - action: utter_Motivacional
+  - intent: Agradecimento
+  - action: utter_Educacao
+
+- story: feliz 2
+  steps:
+  - intent: Pedir_Ajuda
+  - action: utter_Calma
+  - action: utter_Pergunta_Situacao
+  - intent: Problema
+  - action: utter_Comfortar
+  - action: utter_Pergunta_Motivacional
+  - intent: Comfirmacao
+  - action: utter_Motivacional
+  - intent: Agradecimento
+  - action: utter_Educacao
+
+- story: Não feliz
+  steps:
+  - intent: Pedir_Ajuda
+  - action: utter_Calma
+  - action: utter_Pergunta_Motivacional
+  - intent: Negacao
+  - action: utter_Negacao
+  
+- story: feliz 3
+  steps:
+  - intent: Pedir_Ajuda
+  - action: utter_Calma
+  - action: utter_Pergunta_Situacao
+  - intent: Problema
+  - action: utter_Comfortar
+  - action: utter_Pergunta_Motivacional
+  - intent: Negacao
+  - action: utter_Insistir
+  - intent: Comfirmacao
+  - action: utter_Empolgacao
+  - action: utter_Motivacional
+  - intent: Agradecimento
+  - action: utter_Educacao
+
+- story: feliz 4
+  steps:
+  - intent: Pedir_Ajuda
+  - action: utter_Calma
+  - action: utter_Pergunta_Situacao
+  - intent: Problema
+  - action: utter_Comfortar
+  - action: utter_Comfortar_motivacional
+  - intent: Agradecimento
+  - action: utter_Educacao
