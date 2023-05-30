@@ -19,7 +19,7 @@ stories:
   - action: utter_Pergunta_Situacao
   - intent: Problema
     entities:
-    - poblema
+    - Blema: "tiste"
   - action: utter_Comfortar
   - action: utter_Pergunta_Motivacional
   - intent: Comfirmacao
@@ -42,7 +42,7 @@ stories:
   - action: utter_Pergunta_Situacao
   - intent: Problema
     entities:
-    - poblema
+    - Blema: "Magoado"
   - action: utter_Comfortar
   - action: utter_Pergunta_Motivacional
   - intent: Negacao
@@ -60,8 +60,25 @@ stories:
   - action: utter_Pergunta_Situacao
   - intent: Problema
     entities:
-    - poblema
+    - Blema: "Nheee"
   - action: utter_Comfortar
   - action: utter_Comfortar_motivacional
+  - intent: Agradecimento
+  - action: utter_Educacao
+
+- story: interactive_story_1
+  steps:
+  - intent: Comfirmacao
+  - intent: Saudacao
+  - action: utter_Saudacao
+  - action: utter_Bem
+  - intent: Pedir_Ajuda
+  - action: utter_Calma
+  - action: utter_Pergunta_Motivacional
+  - intent: Negacao
+  - action: utter_Insistir
+  - intent: Negacao
+  - intent: Comfirmacao
+  - action: utter_Motivacional
   - intent: Agradecimento
   - action: utter_Educacao

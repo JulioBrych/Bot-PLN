@@ -1,81 +1,72 @@
-version: "3.1"
-
+version: '3.1'
 intents:
-  - Pedir_Ajuda
-  - Adeus
-  - Saudacao
-  - Comfirmacao
-  - Negacao
-  - Agradecimento
-  - Problema:
-    use_entities:
-      -poblema
-
+- Adeus
+- Agradecimento
+- Comfirmacao
+- Negacao
+- Pedir_Ajuda
+- Problema
+- Saudacao
 entities:
-  - poblema
-
+- Blema
 responses:
   utter_Saudacao:
-  - text: "Ola"
-  - text: "Oi"
-  - text: "Aoba"
-  
+  - text: Ola
+  - text: Oi
+  - text: Aoba
   utter_Calma:
-  - text: "Ok, fice calmo"
-  - text: "Eu estou aqui para te ajudar"
-  - text: "Lamento ouvir que esta pasando por um momento dificil"
-
+  - text: Ok, fice calmo
+  - text: Eu estou aqui para te ajudar
+  - text: Lamento ouvir que esta pasando por um momento dificil
   utter_Pergunta_Situacao:
-  - text: "O que Acomteceu?"
-  - text: "Em que posso te ajudar?"
-  - text: "Me conte sobre seus problemas"
-  
+  - text: O que Acomteceu?
+  - text: Em que posso te ajudar?
+  - text: Me conte sobre seus problemas
   utter_Pergunta_Motivacional:
-  - text: "gostaria de ouvir umas palavras calorosas?"
-  - text: "Então, quer ouvir algo legal?"
-  
+  - text: gostaria de ouvir umas palavras calorosas?
+  - text: Então, quer ouvir algo legal?
   utter_Motivacional:
-  - text: "Voce é mais forte do que imagina, e eu acredito em voce"
-  - text: "Acredite em si mesmo e nas suas capacidades para superar este desafio"
-  - text: "Voce é unico(a) e especial. Sua presença faz a diferença no mundo"
-  
+  - text: Voce é mais forte do que imagina, e eu acredito em voce
+  - text: Acredite em si mesmo e nas suas capacidades para superar este desafio
+  - text: Voce é unico(a) e especial. Sua presença faz a diferença no mundo
   utter_Adeus:
-  - text: "Tenha um Otimo dia"
-  - text: "Vou sentir saudades"
-
+  - text: Tenha um Otimo dia
+  - text: Vou sentir saudades
   utter_Educacao:
-  - text: "De nada"
-  - text: "Disponha"
-  - text: "Tamo Junto"
-
+  - text: De nada
+  - text: Disponha
+  - text: Tamo Junto
   utter_Negacao:
-  - text: "Que pena"
-
+  - text: Que pena
   utter_Insistir:
-  - text: "Tem ceteza?"
-  - text: "Não quer mesmo ouvir?"
-  - text: "Vamo la, Aceita"
-
+  - text: Tem ceteza?
+  - text: Não quer mesmo ouvir?
+  - text: Vamo la, Aceita
   utter_Empolgacao:
-  - text: "Oba"
-  - text: "Isso ai"
-  - text: "Vamos la"
-
+  - text: Oba
+  - text: Isso ai
+  - text: Vamos la
   utter_Comfortar:
-  - text: "Sinto ouvir isso"
-  - text: "é complicado"
-  - text: "Eu entendo"
-  - text: "Realmente isso é dificil"
-  
+  - text: Sinto ouvir isso
+  - text: é complicado
+  - text: Eu entendo
+  - text: Realmente isso é dificil
   utter_Comfortar_motivacional:
-  - text: "Relaxa, que tudo vai se resolver"
-  - text: "Fique firme, por que amanha é um novo dia"
-  - text: "Eu sei o quanto dever ser dificil, mas eu acredito que voce pode superar isso!"
-
+  - text: Relaxa, que tudo vai se resolver
+  - text: Fique firme, por que amanha é um novo dia
+  - text: Eu sei o quanto dever ser dificil, mas eu acredito que voce pode superar isso!
   utter_Bem:
-  - text: "Como vai?"
-  - text: "Tudo bem?"
-
+  - text: Como vai?
+  - text: Tudo bem?
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+  
+actions:
+- utter_Insistir
+- utter_Motivacional
+- utter_Calma
+- utter_Educacao
+- utter_Pergunta_Motivacional
+- utter_Saudacao
+- utter_Bem

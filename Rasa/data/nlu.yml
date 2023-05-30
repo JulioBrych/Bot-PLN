@@ -1,7 +1,5 @@
 version: "3.1"
-
 nlu:
-
 - intent: Pedir_Ajuda
   examples: |
     - me ajuda
@@ -15,6 +13,7 @@ nlu:
     - esotu meio pra baixo
     - qual é o meu problema
     - Me sinto triste
+    - olha eu não to bem hoje
 - intent: Adeus
   examples: |
     - Thau
@@ -31,6 +30,7 @@ nlu:
     - bom dia
     - boa tarde
     - boa noite
+    - fala meu bom
 - intent: Comfirmacao
   examples: |
     - sim
@@ -40,22 +40,25 @@ nlu:
     - pode ser
     - ta
     - ta bom
+    - quero
 - intent: Negacao
   examples: |
     - n
     - Não
     - Não quero
+    - sinceramente não quero
 - intent: Agradecimento
   examples: |
     - Muito Obrigado
     - Agradeço
     - Ajudou muito
+    - muito agradecido
 - intent: Problema
   examples: |
-    - eu estou [triste]{"entity":"poblema","value":"triste"}
-    - eu estou [Chateado]{"entity":"poblema","value":"Chateado"}
-    - estava em casa e me bateu uma [depresão]{"entity":"poblema","value":"depresão"}
-    - minha vida ta uma [bagunça]{"entity":"poblema","value":"bagunça"}
-    - eu quero me [matar]{"entity":"poblema","value":"matar"}
-    - quero me [matar]{"entity":"poblema","value":"matar"}
-    - não tenho mais [motivos para viver]{"entity":"poblema","value":"motivos para viver"}
+    - eu estou [triste](Blema)
+    - eu estou [Chateado](Blema)
+    - estava em casa e me bateu uma [depresão](Blema)
+    - minha vida ta uma [bagunça](Blema)
+    - eu quero me [matar](Blema)
+    - quero me [matar](Blema)
+    - não tenho mais [motivos para viver](Blema)
