@@ -7,10 +7,12 @@ intents:
   - Comfirmacao
   - Negacao
   - Agradecimento
-  - Problema
+  - Problema:
+    use_entities:
+      -poblema
 
 entities:
-  - Problema
+  - poblema
 
 responses:
   utter_Saudacao:

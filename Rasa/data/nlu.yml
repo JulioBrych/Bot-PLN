@@ -52,11 +52,10 @@ nlu:
     - Ajudou muito
 - intent: Problema
   examples: |
-    - Aconteceu (Problema)[Problema]
-    - eu tava (Problema)[Problema]
-    - meio que (Problema)[Problema]
-    - tinha (Problema)[Problema]
-    - ta dificil de (Problema)[Problema]
-    - eu comecei a (Problema)[Problema]
-    - meu (Problema)[Problema]
-    - minha (Problema)[Problema]
+    - eu estou [triste]{"entity":"poblema","value":"triste"}
+    - eu estou [Chateado]{"entity":"poblema","value":"Chateado"}
+    - estava em casa e me bateu uma [depresão]{"entity":"poblema","value":"depresão"}
+    - minha vida ta uma [bagunça]{"entity":"poblema","value":"bagunça"}
+    - eu quero me [matar]{"entity":"poblema","value":"matar"}
+    - quero me [matar]{"entity":"poblema","value":"matar"}
+    - não tenho mais [motivos para viver]{"entity":"poblema","value":"motivos para viver"}

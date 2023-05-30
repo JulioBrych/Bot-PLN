@@ -18,6 +18,8 @@ stories:
   - action: utter_Calma
   - action: utter_Pergunta_Situacao
   - intent: Problema
+    entities:
+    - poblema
   - action: utter_Comfortar
   - action: utter_Pergunta_Motivacional
   - intent: Comfirmacao
@@ -39,6 +41,8 @@ stories:
   - action: utter_Calma
   - action: utter_Pergunta_Situacao
   - intent: Problema
+    entities:
+    - poblema
   - action: utter_Comfortar
   - action: utter_Pergunta_Motivacional
   - intent: Negacao
@@ -55,6 +59,8 @@ stories:
   - action: utter_Calma
   - action: utter_Pergunta_Situacao
   - intent: Problema
+    entities:
+    - poblema
   - action: utter_Comfortar
   - action: utter_Comfortar_motivacional
   - intent: Agradecimento
