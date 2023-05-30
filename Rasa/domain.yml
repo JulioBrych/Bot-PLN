@@ -3,6 +3,7 @@ intents:
 - Adeus
 - Agradecimento
 - Comfirmacao
+- Meia_Boca
 - Negacao
 - Pedir_Ajuda
 - Problema
@@ -58,15 +59,24 @@ responses:
   utter_Bem:
   - text: Como vai?
   - text: Tudo bem?
+  utter_Otimo:
+  - text: Que bom!
+  - text: Otimo!
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-  
 actions:
-- utter_Insistir
-- utter_Motivacional
-- utter_Calma
-- utter_Educacao
-- utter_Pergunta_Motivacional
+- utter_Comfortar_motivacional
 - utter_Saudacao
+- utter_Motivacional
 - utter_Bem
+- utter_Comfortar
+- Otimo
+- utter_Insistir
+- utter_Pergunta_Motivacional
+- Melhorou
+- utter_Adeus
+- utter_Pergunta_Situacao
+- utter_Educacao
+- utter_Calma
+- utter_Negacao

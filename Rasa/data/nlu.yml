@@ -14,12 +14,15 @@ nlu:
     - qual é o meu problema
     - Me sinto triste
     - olha eu não to bem hoje
+    - não to me sintindo bem
+    - eu não to bem
 - intent: Adeus
   examples: |
     - Thau
     - Adeus
     - Ja me sinto melhor
     - ate mais
+    - adeus
 - intent: Saudacao
   examples: |
     - olá
@@ -31,6 +34,7 @@ nlu:
     - boa tarde
     - boa noite
     - fala meu bom
+    - ola
 - intent: Comfirmacao
   examples: |
     - sim
@@ -41,18 +45,21 @@ nlu:
     - ta
     - ta bom
     - quero
+    - um pouco
 - intent: Negacao
   examples: |
     - n
     - Não
     - Não quero
     - sinceramente não quero
+    - não
 - intent: Agradecimento
   examples: |
     - Muito Obrigado
     - Agradeço
     - Ajudou muito
     - muito agradecido
+    - valeu
 - intent: Problema
   examples: |
     - eu estou [triste](Blema)
@@ -62,3 +69,10 @@ nlu:
     - eu quero me [matar](Blema)
     - quero me [matar](Blema)
     - não tenho mais [motivos para viver](Blema)
+    - meu pai morreu
+- intent: Meia_Boca
+  examples: |
+    - tamo indo
+    - não sei
+    - ta complicado
+    - ta foda

@@ -82,3 +82,45 @@ stories:
   - action: utter_Motivacional
   - intent: Agradecimento
   - action: utter_Educacao
+
+- story: interactive_story_1
+  steps:
+  - intent: Saudacao
+  - action: utter_Saudacao
+  - action: utter_Bem
+  - intent: Comfirmacao
+  - intent: Meia_Boca
+  - action: utter_Pergunta_Situacao
+  - intent: Pedir_Ajuda
+    entities:
+    - Blema: triste
+  - action: utter_Comfortar
+  - action: action_default_fallback
+  - intent: Pedir_Ajuda
+  - action: utter_Comfortar
+  - action: utter_Pergunta_Motivacional
+  - intent: Comfirmacao
+  - action: utter_Comfortar_motivacional
+  - intent: Problema
+  - intent: Agradecimento
+  - action: utter_Educacao
+
+- story: interactive_story_2
+  steps:
+  - intent: Saudacao
+  - action: utter_Saudacao
+  - action: utter_Bem
+  - intent: Pedir_Ajuda
+  - action: utter_Pergunta_Situacao
+  - intent: Problema
+  - action: utter_Comfortar
+  - action: utter_Pergunta_Motivacional
+  - intent: Negacao
+  - action: utter_Insistir
+  - intent: Comfirmacao
+  - action: utter_Motivacional
+  - action: Melhorou
+  - intent: Comfirmacao
+  - action: Otimo
+  - intent: Adeus
+  - action: utter_Adeus
