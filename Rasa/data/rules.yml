@@ -12,3 +12,8 @@ rules:
   - intent: Saudacao
   - action: utter_Saudacao
   - action: utter_Bem
+
+- rule: responder bate papo
+  steps:
+  - intent: bate-papo
+  - action: utter_bate-papo

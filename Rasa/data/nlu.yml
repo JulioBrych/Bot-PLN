@@ -76,3 +76,44 @@ nlu:
     - não sei
     - ta complicado
     - ta foda
+- intent: bate-papo/seu_nome
+  examples: |
+    - qual é o seu nome?
+    - como voce se chama?
+    - meu nome é julio qual é seu?
+    - como posso te chamar?
+    - qual é o seu nome
+    - como voce se chama
+    - meu nome é ana qual é seu
+    - como posso te chamar
+    - nome?
+    - quem é voce?
+    - se chama?
+    - por qual nome devo te chamar
+- intent: bate-papo/clima_ai
+  examples: |
+    - como ta o tempo ai?
+    - ta chovendo ai?
+    - ta chovendo?
+    - ta com sol?
+    - como ta o ceu?
+    - nublado?
+    - ensolarado
+    - me fala do clima?
+    - o dia ta bom?
+    - o dia a pra que hj
+- intent: bate-papo/pq_nome
+  examples: |
+    - pq desse nome
+    - pq uga
+    - serio que é uga
+    - não tinha um nome melhor
+    - uga?
+
+- intent: bate-papo/jogo
+  examples: |
+    - viu o jogo onten
+    - quanto ficou o jogo onten
+    - voce conhece esportes
+    - joga alguma coisa
+    - voce gosta de esportes
