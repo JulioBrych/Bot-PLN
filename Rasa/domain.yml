@@ -75,7 +75,14 @@ responses:
   - text: ta chuvendo aqui
   - text: ta uma chuva do caralho, mais parece que ta caindo o mundo
   - text: uma chuva de granizo de leve
-  
+  utter_bate-papo/pq_nome:
+  - text: Meus criadores escolheram, e conhecendo eles é melhor não discutir
+  - text: Pq não uga? né
+  utter_bate-papo/jogo:
+  - text: não sou dos exportes
+  - text: não curto exportes
+  - text: não me ligo muito em exportes
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -94,3 +101,4 @@ actions:
 - utter_Educacao
 - utter_Calma
 - utter_Negacao
+- utter_bate-papo

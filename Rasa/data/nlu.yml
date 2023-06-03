@@ -16,6 +16,7 @@ nlu:
     - olha eu não to bem hoje
     - não to me sintindo bem
     - eu não to bem
+    
 - intent: Adeus
   examples: |
     - Thau
@@ -23,6 +24,7 @@ nlu:
     - Ja me sinto melhor
     - ate mais
     - adeus
+
 - intent: Saudacao
   examples: |
     - olá
@@ -35,6 +37,7 @@ nlu:
     - boa noite
     - fala meu bom
     - ola
+
 - intent: Comfirmacao
   examples: |
     - sim
@@ -46,6 +49,7 @@ nlu:
     - ta bom
     - quero
     - um pouco
+
 - intent: Negacao
   examples: |
     - n
@@ -53,6 +57,7 @@ nlu:
     - Não quero
     - sinceramente não quero
     - não
+
 - intent: Agradecimento
   examples: |
     - Muito Obrigado
@@ -60,6 +65,7 @@ nlu:
     - Ajudou muito
     - muito agradecido
     - valeu
+
 - intent: Problema
   examples: |
     - eu estou [triste](Blema)
@@ -70,12 +76,14 @@ nlu:
     - quero me [matar](Blema)
     - não tenho mais [motivos para viver](Blema)
     - meu pai morreu
+
 - intent: Meia_Boca
   examples: |
     - tamo indo
     - não sei
     - ta complicado
     - ta foda
+
 - intent: bate-papo/seu_nome
   examples: |
     - qual é o seu nome?
@@ -90,6 +98,7 @@ nlu:
     - quem é voce?
     - se chama?
     - por qual nome devo te chamar
+
 - intent: bate-papo/clima_ai
   examples: |
     - como ta o tempo ai?
@@ -102,6 +111,7 @@ nlu:
     - me fala do clima?
     - o dia ta bom?
     - o dia a pra que hj
+
 - intent: bate-papo/pq_nome
   examples: |
     - pq desse nome
