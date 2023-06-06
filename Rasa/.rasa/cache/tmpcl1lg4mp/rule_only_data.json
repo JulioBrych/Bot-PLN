@@ -1,0 +1,7 @@
+{
+  "rule_only_slots": [
+    "frequenciaInteresse",
+    "frequenciaSentimento"
+  ],
+  "rule_only_loops": []
+}

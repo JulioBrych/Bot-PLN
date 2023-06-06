@@ -8,8 +8,14 @@ intents:
 - Pedir_Ajuda
 - Problema
 - Saudacao
+- subscribe
+- inform_email
+- inform_frequency
+- olamundo
 entities:
 - Blema
+- email
+- frequency
 responses:
   utter_Saudacao:
   - text: Ola
@@ -82,6 +88,39 @@ responses:
   - text: não sou dos exportes
   - text: não curto exportes
   - text: não me ligo muito em exportes
+  # ... previous responses ...
+  utter_ask_email:
+  - text: qual o seu endereço de email??
+  utter_ask_frequenciaInteresse:
+  - text: Nas últimas 2 semanas, com que frequência você teve interesse ou prazer em fazer as coisas?
+  utter_ask_frequenciaSentimento:
+  - text: Nas últimas 2 semanas, com que frequência você tem se sentido para baixo, deprimido ou sem esperança?
+  utter_subscribed:
+  - text: Tudo certo! cheque seu inbox em {frequenciaInteresse} para confirmar sua inscrição.Voce vai receber emails {frequenciaSentimento}.
+
+slots:
+  frequenciaInteresse:
+    type: categorical
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: frequency
+  frequenciaSentimento:
+    type: categorical
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: frequency
+
+  
+
+
+
+forms:
+ formulario:
+    required_slots:
+        - frequenciaInteresse
+        - frequenciaSentimento
 
 session_config:
   session_expiration_time: 60
@@ -102,3 +141,6 @@ actions:
 - utter_Calma
 - utter_Negacao
 - utter_bate-papo
+- utter_ask_email
+- utter_ask_frequency
+- utter_subscribed

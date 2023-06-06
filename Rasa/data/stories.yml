@@ -12,6 +12,38 @@ stories:
   - intent: Agradecimento
   - action: utter_Educacao
 
+#- story: greet and subscribe
+ # steps:
+  #- intent: subscribe
+ # - action: newsletter_form
+ # - active_loop: newsletter_form
+  #- action: utter_subscribed
+
+- story: greet and subscribe
+  steps:
+  - intent: subscribe
+  - action: formulario
+  - active_loop: formulario
+  - action: utter_subscribed
+
+- story: oi
+  steps:
+  - intent: Negacao
+  - slot_was_set:
+      - frequenciaInteresse: Quase todos os dias
+  - slot_was_set:
+      - frequenciaSentimento: De jeito nenhum
+  - action: utter_Insistir
+
+- story: oie
+  steps:
+  - intent: Negacao
+  - slot_was_set:
+      - frequenciaInteresse: Quase todos os dias
+  - slot_was_set:
+      - frequenciaSentimento: Quase todos os dias
+  - action: utter_Calma
+
 - story: feliz 2
   steps:
   - intent: Pedir_Ajuda
@@ -124,3 +156,5 @@ stories:
   - action: Otimo
   - intent: Adeus
   - action: utter_Adeus
+
+

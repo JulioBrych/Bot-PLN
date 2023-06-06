@@ -13,6 +13,31 @@ rules:
   - action: utter_Saudacao
   - action: utter_Bem
 
+#- rule: duasvezesporsemana
+ # steps:
+    #- slot_was_set:
+      #  - frequency: duas vezes por semana
+   # - intent: Negacao
+   # - action: utter_Otimo
+
+#- rule: Quase todos os dias
+ # condition:
+  #- slot_was_set:
+    #  - frequenciaInteresse: Quase todos os dias
+   #   - frequenciaSentimento: Quase todos os dias
+  #steps:
+  #  - intent: olamundo
+   # - action: utter_Otimo
+
+#- rule: teste2
+ # condition:
+ # - slot_was_set:
+     # - frequenciaInteresse: Quase todos os dias
+      #- frequenciaSentimento: De jeito nenhum
+ # steps:
+   # - intent: Agradecimento
+   # - action: utter_Insistir
+
 - rule: responder bate papo
   steps:
   - intent: bate-papo

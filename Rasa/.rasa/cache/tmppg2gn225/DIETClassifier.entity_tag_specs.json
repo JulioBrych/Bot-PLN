@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-Blema",
+      "2": "I-Blema",
+      "3": "L-Blema",
+      "4": "U-Blema",
+      "5": "B-email",
+      "6": "I-email",
+      "7": "L-email",
+      "8": "U-email",
+      "9": "B-frequency",
+      "10": "I-frequency",
+      "11": "L-frequency",
+      "12": "U-frequency",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-Blema": 1,
+      "I-Blema": 2,
+      "L-Blema": 3,
+      "U-Blema": 4,
+      "B-email": 5,
+      "I-email": 6,
+      "L-email": 7,
+      "U-email": 8,
+      "B-frequency": 9,
+      "I-frequency": 10,
+      "L-frequency": 11,
+      "U-frequency": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

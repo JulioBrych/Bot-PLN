@@ -16,6 +16,29 @@ nlu:
     - olha eu não to bem hoje
     - não to me sintindo bem
     - eu não to bem
+
+- intent: subscribe
+  examples: |
+    - Eu quero receber o boletim informativo
+    - Você pode me enviar o boletim informativo?
+    - Você pode me cadastrar para receber o boletim informativo?
+    - Eu quero me inscrever em um boletim informativo
+
+- intent: inform_email
+  examples: |
+    - Pouco interesse ou prazer em fazer as coisas(email)
+    - [aleatorio@exemplo.com](email)
+    - Por favor mande para [exemplo@outlook.com](email)
+    - O email é [qualquercoisa@exemplo.com](email)
+
+- intent: inform_frequency
+  examples: |
+    - [De jeito nenhum](frequency)
+    - [Muitos dias](frequency)
+    - [Mais da metade dos dias](frequency)
+    - [Quase todos os dias](frequency)
+    - [De jeito nenhum]{"entity": "frequency", "value": "De jeito nenhum"}
+    - [Quase todos os dias]{"entity": "frequency", "value": "Quase todos os dias"}
     
 - intent: Adeus
   examples: |
@@ -24,6 +47,10 @@ nlu:
     - Ja me sinto melhor
     - ate mais
     - adeus
+
+- intent: olamundo
+  examples: |
+    - xablau
 
 - intent: Saudacao
   examples: |
