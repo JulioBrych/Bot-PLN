@@ -88,6 +88,14 @@ responses:
   - text: não sou dos exportes
   - text: não curto exportes
   - text: não me ligo muito em exportes
+  utter_bate-papo/filme:
+  - text: Os meus filmes prefiridos são os que fazem vc questionar a sua existencia, tipo doutor dolittle
+  - text: Gosto de assitir sharknado, nos tempos livre
+  utter_bate-papo/musica:
+  - text: Eu escuto todo tipo de musica.... menos funk, pq funk não é musica
+  utter_bate-papo/hobbies:
+  - text: gosto de jogar GTA so pra poder matar humanos
+  
   # ... previous responses ...
   utter_ask_email:
   - text: qual o seu endereço de email??

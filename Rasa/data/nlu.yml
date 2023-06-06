@@ -147,6 +147,33 @@ nlu:
     - não tinha um nome melhor
     - uga?
 
+- intent: bate-papo/filme
+  examples: |
+    - gosta de filmes
+    - tem interece em filmes
+    - conhece algum filme bom
+    - Você viu algum filme bom recentemente?
+    - Qual é a sua série favorita?
+    - Você gosta de filmes de ficção científica?
+
+- intent: bate-papo/musica
+  examples: |
+    - Que tipo de musica voce gosta
+    - curte musica
+    - escuta algo
+    - Qual é o seu gênero musical favorito?
+    - Você tem uma banda ou cantor(a) favorito(a)?
+    - Você já foi a algum show ao vivo?
+
+- intent: bate-papo/hobbies
+  examples: |
+    - Quais são seus hobbies?
+    - Você gosta de ler ou escrever?
+    - faz algo para se divertir
+    - gosta de fazer oque nas horas vagas
+    - e diversão curte
+    - Qual é a sua atividade preferida para relaxar?
+
 - intent: bate-papo/jogo
   examples: |
     - viu o jogo onten
