@@ -2,6 +2,8 @@ version: "3.1"
 nlu:
 - intent: Pedir_Ajuda
   examples: |
+    - pode me ajudar?
+    - como voce pode me ajudar?
     - me ajuda
     - Estou me sentindo meio pra baixo
     - Eu não estou bem
@@ -99,10 +101,13 @@ nlu:
     - eu estou [Chateado](Blema)
     - estava em casa e me bateu uma [depresão](Blema)
     - minha vida ta uma [bagunça](Blema)
-    - eu quero me [matar](Blema)
+    - eu quero me [matar](altoRisco)
     - quero me [matar](altoRisco)
     - não tenho mais [motivos para viver](Blema)
     - meu pai morreu
+    - quero me [suicidar](altoRisco) 
+    - melhor me [suicidar](altoRisco)
+    - [nao quero mais viver](altoRisco)
 
 - intent: Meia_Boca
   examples: |

@@ -17,7 +17,7 @@ entities:
 - altoRisco
 - email
 - frequency
-- altoRisco
+
 responses:
   utter_Saudacao:
   - text: Ola
@@ -78,7 +78,7 @@ responses:
   - text: Uga
   utter_bate-papo/clima_ai:
   - text: Eu sou uma maquina, to nem ai pro clima
-  - text: Clima serio que papo merda
+  - text: Clima serio? que papo...
   - text: Ta com sol aqui hj
   - text: ta meio nublado, acho que vai chover
   - text: não quero falar do clima
@@ -86,21 +86,19 @@ responses:
   - text: ta uma chuva do caralho, mais parece que ta caindo o mundo
   - text: uma chuva de granizo de leve
   utter_bate-papo/pq_nome:
-  - text: Meus criadores escolheram, e conhecendo eles é melhor não discutir
+  - text: Meus criadores escolheram e conhecendo eles é melhor não discutir
   - text: Pq não uga? né
   utter_bate-papo/jogo:
-  - text: não sou dos exportes
-  - text: não curto exportes
-  - text: não me ligo muito em exportes
+  - text: não sou dos esportes
+  - text: não curto esportes
+  - text: não me ligo muito em esportes
   utter_bate-papo/filme:
-  - text: Os meus filmes prefiridos são os que fazem vc questionar a sua existencia, tipo doutor dolittle
-  - text: Gosto de assitir sharknado, nos tempos livre
+  - text: Os meus filmes preferidos são os que fazem você questionar a sua existência, tipo doutor dolittle
+  - text: Gosto de assitir sharknado no meu tempo livre
   utter_bate-papo/musica:
-  - text: Eu escuto todo tipo de musica.... menos funk, pq funk não é musica
+  - text: Eu escuto todo tipo de musica.... menos funk, porque funk não é musica
   utter_bate-papo/hobbies:
-  - text: gosto de jogar GTA so pra poder matar humanos
-  utter_ComfortarAltoRisco:
-  - text: Ligue para tall...
+  - text: gosto de ler livros de romance.
   # ... previous responses ...
   utter_ask_email:
   - text: qual o seu endereço de email??
@@ -110,7 +108,8 @@ responses:
   - text: Nas últimas 2 semanas, com que frequência você tem se sentido para baixo, deprimido ou sem esperança?
   utter_subscribed:
   - text: Tudo certo! cheque seu inbox em {frequenciaInteresse} para confirmar sua inscrição.Voce vai receber emails {frequenciaSentimento}.
-
+  utter_iniciar:
+  - text: Em que posso te ajudar?
 slots:
   frequenciaInteresse:
     type: categorical
