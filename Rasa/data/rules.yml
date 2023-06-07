@@ -13,6 +13,13 @@ rules:
   - action: utter_Saudacao
   - action: utter_Bem
 
+- rule: altoRisco
+  steps:
+  - intent: Problema
+    entities:
+    - altoRisco: matar
+  - action: utter_ComfortarAltoRisco
+
 #- rule: duasvezesporsemana
  # steps:
     #- slot_was_set:

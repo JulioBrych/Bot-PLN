@@ -14,6 +14,7 @@ intents:
 - olamundo
 entities:
 - Blema
+- altoRisco
 - email
 - frequency
 - altoRisco
@@ -98,7 +99,8 @@ responses:
   - text: Eu escuto todo tipo de musica.... menos funk, pq funk não é musica
   utter_bate-papo/hobbies:
   - text: gosto de jogar GTA so pra poder matar humanos
-  
+  utter_ComfortarAltoRisco:
+  - text: Ligue para tall...
   # ... previous responses ...
   utter_ask_email:
   - text: qual o seu endereço de email??
