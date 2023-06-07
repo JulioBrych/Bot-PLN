@@ -42,3 +42,10 @@ rules:
   steps:
   - intent: bate-papo
   - action: utter_bate-papo
+
+- rule: altoRisco
+  steps:
+  - intent: Problema
+    entities:
+    - altoRisco: matar
+  - action: utter_ComfortarAltoRisco

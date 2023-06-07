@@ -16,6 +16,7 @@ entities:
 - Blema
 - email
 - frequency
+- altoRisco
 responses:
   utter_Saudacao:
   - text: Ola
@@ -58,6 +59,8 @@ responses:
   - text: é complicado
   - text: Eu entendo
   - text: Realmente isso é dificil
+  utter_ComfortarAltoRisco:
+  - text: Encontre ajuda! Fale com um dos nossos voluntários hoje no Centro de Valorização da Vida por telefone 3329-4111 Dom - 17h à 01h, Seg a Qui - 09h à 01h, Sex - 15h às 23h, Sáb - 16h à 01h.
   utter_Comfortar_motivacional:
   - text: Relaxa, que tudo vai se resolver
   - text: Fique firme, por que amanha é um novo dia
